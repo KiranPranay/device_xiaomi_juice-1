@@ -8,13 +8,15 @@
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Inherit some common aosp stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 # Bootanimation res
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # GApps
-$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
+WITH_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_juice
