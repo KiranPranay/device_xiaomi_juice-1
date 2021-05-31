@@ -1,4 +1,4 @@
-# Device Unified Tree for  Xiaomi POCO M3 / Redmi 9T nfc / Redmi 9 Power / Redmi note 9 4G
+# Unified Device Tree for Xiaomi POCO M3 / Redmi 9T NFC / Redmi 9 Power / Redmi Note 9 4G
 
 ## Spec Sheet
 Feature | Specs
